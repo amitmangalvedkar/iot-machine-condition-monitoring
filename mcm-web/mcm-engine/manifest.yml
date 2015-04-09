@@ -1,0 +1,13 @@
+applications:
+- services:
+  - thingsmax-wrapper-MonitoringAndAnalytics
+  - Business Rules-zs
+  - Internet of Things-99
+  - mcm-engine-cloudantNoSQLDB
+  disk_quota: 1024M
+  host: mcm-engine
+  name: mcm-engine
+  path: mcm-engine.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 2048M

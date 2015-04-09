@@ -100,7 +100,7 @@ Complete the following steps to install the Machine Condition Monitoring applica
     cf login –u {Bluemix userid} –o {Bluemix organization} –s {Bluemix-space}   
     ```  
 3.	Download the source code, for Machine Condition Monitoring from the following location – 
-https://github.com/amitmangalvedkar/iot-machine-condition-monitoring/tree/master/thingsmax-web  
+https://github.com/amitmangalvedkar/iot-machine-condition-monitoring/tree/master/mcm-web  
 
 4.	Build a war file from the source code, in an eclipse IDE, and name it as machineconditionmonitor-web.war.   
 
