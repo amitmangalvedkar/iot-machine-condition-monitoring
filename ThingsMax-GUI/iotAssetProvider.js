@@ -107,7 +107,7 @@ IotAssetProvider = function(runtimeUrl1) {
 	        	//honorCipherOrder: true
 	    		}
 			};                  					           
-		   var resturl = maximoCreds.url+"/rest/mbo/asset?_maxItems=30&location='STATION1'&_includecols=ASSETNUM,DESCRIPTION,SITEID,ORGID&_format=json&_lid="+maximoCreds.username+"&_lpwd="+maximoCreds.password+"&ORGID=" + maximoOrg;		   		   
+		   var resturl = maximoCreds.url+"/rest/mbo/asset?_includecols=ASSETNUM,DESCRIPTION,SITEID,ORGID&_format=json&_lid="+maximoCreds.username+"&_lpwd="+maximoCreds.password+"&ORGID=" + maximoOrg; 
 		   var client1 = new Client(args);
 		   client1.get(resturl,
 				function(restdata, response) {		
